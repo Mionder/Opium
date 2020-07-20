@@ -48,11 +48,12 @@ footer{
     line-height: 65px;
 }
 
-.footer_content-link svg{
+.footer_content-logo{
     padding-right: 10px;
     transform: translateY(8px);
     width: 35px !important;
     height: 35px !important;
+    /* padding-bottom: 25px; */
 }
 
 .footer_content-link span{
@@ -85,9 +86,9 @@ footer{
         line-height: 20px;
         max-width: 350px;
     }
-    .footer_content .footer_content-link svg{
+    .footer_content-logo{
         width: 25px !important;
-        transform: translateY(12px);
+        transform: translateY(-1px);
     }
 }
 
@@ -118,7 +119,7 @@ footer{
 }
 
 @media screen and (max-width: 400px){
-    .footer_content .footer_content-link svg {
+    .footer_content-logo {
         width: 15px !important;
         padding-right: 3px;
     }

@@ -4,7 +4,7 @@
 }
 
 .blog .blog-viollet-blur{
-    background: url(../img/company-3.png) no-repeat;
+    background: url(./img/company-3.png) no-repeat;
     background-size: 100%;
     width: 702px;
     height: 1300px;
@@ -15,7 +15,7 @@
 }
 
 .blog .blog-blue-blur{
-    background: url(../img/company-4.png) no-repeat;
+    background: url(./img/company-4.png) no-repeat;
     background-size: 100%;
     width: 702px;
     height: 1300px;
@@ -126,7 +126,7 @@
 .blog .blog-cards .blog-cards_item a::after{
     position: absolute;
     content: '';
-    background: url(../img/mm.png) no-repeat;
+    background: url(./img/mm.png) no-repeat;
     top: 30px;
     right: -70px;
     width: 74px;

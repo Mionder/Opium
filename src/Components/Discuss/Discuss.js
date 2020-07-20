@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./discuss.css";
-import phoneImg from "../img/phone.png";
+import phoneImg from "./img/phone.png";
 export default class Discuss extends Component{
     render(){
         return(

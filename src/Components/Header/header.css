@@ -55,7 +55,7 @@ header{
     right: -32px;
     width: 65px;
     height: 65px;
-    background: url(../img/header-el.png) no-repeat;
+    background: url(./img/header-el.png) no-repeat;
     background-size: 100%;
     z-index: -1;
 }
@@ -96,7 +96,7 @@ header{
         font-size: 16px;
     }
     .header-wrapper .header-left li:first-child > a::after{
-        top: -9px;
+        top: -13px;
         right: -19px;
         width: 44px;
     }
@@ -138,7 +138,7 @@ header{
         right: -32px;
         width: 45px;
         height: 45px;
-        background: url(../img/header-el.png) no-repeat;
+        background: url(./img/header-el.png) no-repeat;
         background-size: 100%;
         z-index: -1;
     }
@@ -219,7 +219,7 @@ header{
     }
     .header-wrap-mobile input:checked ~ nav {
         /* background-color: #fff; */
-        background: url(../img/design-circle.png) no-repeat;
+        background: url(./img/design-circle.png) no-repeat;
         background-size: 40%;
         background-position: top -48px left -69px;
         background-color: rgb(255 255 255);

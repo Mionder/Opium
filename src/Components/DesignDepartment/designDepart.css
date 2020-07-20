@@ -1,5 +1,5 @@
 .design-department{
-    background: url(../img/design-dep.png) no-repeat;
+    background: url(./img/design-dep.png) no-repeat;
     background-size: cover;
     text-align: center;
     background-position: 0% 35%;
@@ -22,7 +22,7 @@
     position: absolute;
     top: 24%;
     left: 19%;
-    background: url(../img/design-circle.png) no-repeat;
+    background: url(./img/design-circle.png) no-repeat;
     background-size: 100%;
     width: 28%;
     height: 100%;
@@ -39,7 +39,7 @@
     content: '';
     position: absolute;
     top: -4%;
-    background: url(../img/up.png) no-repeat;
+    background: url(./img/up.png) no-repeat;
     background-size: 100%;
     width: 1284px;
     height: 100%;
@@ -49,7 +49,7 @@
     content: '';
     position: absolute;
     bottom: -4%;
-    background: url(../img/down.png) no-repeat;
+    background: url(./img/down.png) no-repeat;
     background-size: 100%;
     width: 1284px;
     height: 100%;

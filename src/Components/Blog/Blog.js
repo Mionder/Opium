@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./blog.css";
-import heartImg from "../img/11.png";
+import heartImg from "./img/11.png";
+import Medium from "./img/Medium.svg";
 export default class Blog extends Component{
     render(){
         return(
@@ -11,7 +12,7 @@ export default class Blog extends Component{
                         <img className="blog-heart" src={heartImg} alt="blog" />
                         <a className="see-all" href="#">see all 
                             <svg width="35" height="18" viewBox="0 0 35 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0.5 9H33.5M33.5 9L25.5 1M33.5 9L25.5 17" stroke="#5B24B3" stroke-width="2"/>
+                                <img src={Medium} alt="no-logo"/>
                             </svg>
                         </a>
                     </div>

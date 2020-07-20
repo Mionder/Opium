@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./virtues.css";
-import virtue1 from "../img/block1.png";
-import virtue2 from "../img/block2.png";
+import virtue1 from "./img/block1.png";
+import virtue2 from "./img/block2.png";
 export default class Virtues extends Component{
     render(){
         return(

@@ -52,7 +52,7 @@
 }
 
 .virtues .blue-blur{
-    background: url(../img/company.png) no-repeat;
+    background: url(./img/company.png) no-repeat;
     background-size: 100%;
     width: 702px;
     height: 1300px;
@@ -62,7 +62,7 @@
 }
 
 .virtues .viollet-blur{
-    background: url(../img/company-2.png) no-repeat;
+    background: url(./img/company-2.png) no-repeat;
     background-size: 100%;
     width: 702px;
     height: 1300px;
