@@ -12,7 +12,7 @@
     width: 60px;
 }
 
-.virtues .virtues-block h3{
+.virtues-block_title{
     font-weight: bold;
     font-size: 52px;
     line-height: 43px;
@@ -21,7 +21,7 @@
     position: relative;
 }
 
-.virtues .virtues-block p{
+.virtues-block_subtitle{
     font-weight: normal;
     font-size: 30px;
     line-height: 38px;
@@ -87,11 +87,11 @@
     .virtues .virtues-wrapper{
         margin-top: 135px;
     }
-    .virtues .virtues-block h3{
+    .virtues-block_title{
         font-size: 35px;
         margin-top: 40px;
     }
-    .virtues .virtues-block p{
+    .virtues-block_subtitle{
         font-size: 20px;
         margin-top: 40px;
     }
@@ -123,15 +123,15 @@
     .virtues .virtues-wrapper{
         margin-top: 40px;
     }
-    .virtues .virtues-block h3 {
+    .virtues-block_title {
         font-size: 28px;
     }
-    .virtues .virtues-block p {
+    .virtues-block_subtitle {
         margin-top: 20px;
     }
     .discuss .discuss-wrap p,
     .blog .blog-cards .blog-cards_item p,
-    .virtues .virtues-block p{
+    .virtues-block_subtitle{
         font-size: 18px;
         line-height: 26px;
     }
@@ -145,14 +145,14 @@
 }
 
 @media screen and (max-width: 400px){
-    .discuss .discuss-wrap p, .blog .blog-cards .blog-cards_item p, .virtues .virtues-block p{
+    .discuss .discuss-wrap p, .blog .blog-cards .blog-cards_item p, .virtues-block_subtitle{
         font-size: 16px;
         line-height: 23px;
     }
     .virtues .virtues-block {
         padding: 25px 20px 40px;
     }
-    .virtues .virtues-block h3 {
+    .virtues-block_title {
         font-size: 20px;
         margin-top: 20px;
     }

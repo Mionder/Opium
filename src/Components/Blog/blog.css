@@ -22,7 +22,7 @@
     position: absolute;
     bottom: 0px;
     right: 0px;
-    z-index: -2;
+    z-index: -2; 
 }
 
 .blog .blog-head{
@@ -30,13 +30,13 @@
     justify-content: space-between;
 }
 
-.blog .blog-head h2{
+.blog-title{
     font-size: 76px;
     font-weight: 700;
     padding-top: 130px;
 }
 
-.blog .blog-head a > svg{
+.blog-medium_icon{
     margin-left: 44px;
 }
 
@@ -162,7 +162,7 @@
     .blog{
         margin-bottom: 170px;
     }
-    .blog .blog-head h2{
+    .blog-title{
         font-size: 50px;
     }
     .container{
@@ -233,7 +233,7 @@
         transform: translate(-216px, -238px);
         width: 380px;
     }
-    .blog .blog-head h2{
+    .blog-title{
         padding-top: 70px;
     }
     .blog .blog-head{
@@ -252,7 +252,7 @@
         transform: translate(55px, -238px);
         width: 300px;
     }
-    .blog .blog-head h2 {
+    .blog-title {
         font-size: 36px;
     }
     .blog .blog-head{

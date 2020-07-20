@@ -5,11 +5,11 @@
     background-position: 0% 35%;
 }
 
-.design-department h1{
+.desing-department_title{
     font-weight: 900;
     font-size: 105px;
     line-height: 150px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em; 
     text-transform: uppercase;
     color: transparent;
     -webkit-text-stroke: 3px #111111;
@@ -17,7 +17,7 @@
     position: relative;
 }
 
-.design-department h1::before{
+.desing-department_title::before{
     content: '';
     position: absolute;
     top: 24%;
@@ -29,13 +29,13 @@
     z-index: -1;
 }
 
-.design-department h1 p{
+.desing-department_subtitle{
     color: #000000;
     position: relative;
     text-align: center;
 }
 
-.design-department h1 p::before{
+.desing-department_subtitle::before{
     content: '';
     position: absolute;
     top: -4%;
@@ -45,7 +45,7 @@
     height: 100%;
 }
 
-.design-department h1 p::after{
+.desing-department_subtitle::after{
     content: '';
     position: absolute;
     bottom: -4%;
@@ -61,16 +61,16 @@
 }
 
 @media(max-width: 1770px){
-    .design-department h1{
+    .desing-department_title{
         font-size: 70px;
         line-height: 100px;
         padding: 252px 0px 380px;
     }
-    .design-department h1 p::before {
+    .desing-department_subtitle::before {
         top: -7%;
         width: 855px;
     }
-    .design-department h1 p::after{
+    .desing-department_subtitle::after{
         width: 855px;
         bottom: -82px;
     }
@@ -80,36 +80,36 @@
     }
 }
 @media screen and (max-width: 880px){
-    .design-department h1 {
+    .desing-department_title {
         font-size: 46px;
         line-height: 76px;
     }
-    .design-department h1 p::before {
+    .desing-department_subtitle::before {
         top: -2%;
         width: 563px;
     }
-    .design-department h1 p::after {
+    .desing-department_subtitle::after {
         width: 563px;
         bottom: -62px;
     }
     .design-department{
         background-position: 15%;
    }
-   .design-department h1 p::before,
-    .design-department h1 p::after{
+   .desing-department_subtitle::before,
+    .desing-department_subtitle::after{
         display: none;
     }
 }
 
 @media screen and (max-width: 580px){
-    .design-department h1{
+    .desing-department_title{
         padding: 130px 0px 100px;
     }
-    .design-department h1::before{
+    .desing-department_title::before{
         width: 45%;
         left: 8%;
     }
-    .design-department h1 {
+    .desing-department_title {
         font-size: 37px;
         line-height: 54px;
     }

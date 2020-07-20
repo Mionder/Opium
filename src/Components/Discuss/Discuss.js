@@ -2,15 +2,15 @@ import React, { Component } from "react";
 import "./discuss.css";
 import phoneImg from "./img/phone.png";
 export default class Discuss extends Component{
-    render(){
+    render(){ 
         return(
             <div className="discuss">
                 <div className="container">
                     <div className="discuss-wrap">
                     <div className="discuss-left">
-                            <h3>Let’s discuss your ptoject!</h3>
-                            <p>Leave your email and we’ll contact you to assign a call</p>
-                            <a href="#">Assign a call</a>
+                            <h3 class="discuss-left_title">Let’s discuss your ptoject!</h3>
+                            <p class="discuss-left_subtitle">Leave your email and we’ll contact you to assign a call</p>
+                            <a class="discuss-left_link" href="#">Assign a call</a>
                     </div>
                     <div className="discuss-right">
                             <img src={phoneImg} alt="phone" />

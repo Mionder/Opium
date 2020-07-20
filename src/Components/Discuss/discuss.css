@@ -16,14 +16,14 @@
     width: 95%;
 }
 
-.discuss .discuss-wrap h3{
+.discuss-left_title{
     font-weight: 500;
     font-size: 74px;
     line-height: 80px;
     color: #000000
 }
 
-.discuss .discuss-wrap p{
+.discuss-left_subtitle{
     font-size: 31px;
     line-height: 42px;
     color: #505050;
@@ -31,7 +31,7 @@
     max-width: 595px;
 }
 
-.discuss .discuss-wrap a{
+.discuss-left_link{
     display: inline-block;
     border: 2px solid #272727;
     padding: 30px 94px;
@@ -42,7 +42,7 @@
     cursor: pointer;
 }
 
-.discuss .discuss-wrap a:hover{
+.discuss-left_link:hover{
     color: #FFCC00;
     background-color: #000;
     transition: 0.3s;
@@ -58,11 +58,11 @@
 }
 
 @media(max-width: 1770px){
-    .discuss .discuss-wrap h3{
+    .discuss-left_title{
         font-size: 50px;
         line-height: 61px;
     }
-    .discuss .discuss-wrap p {
+    .discuss-left_subtitle {
         font-size: 20px;
         line-height: 42px;
         margin-top: 20px;
@@ -71,7 +71,7 @@
     .discuss-right{
         transform: translate(73px, -300px);
     }
-    .discuss .discuss-wrap a{
+    .discuss-left_link{
         font-size: 16px;
         padding: 20px 68px;
     }
@@ -102,7 +102,7 @@
 }
 
 @media screen and (max-width: 1140px){
-    .discuss .discuss-wrap h3 {
+    .discuss-left_title {
         font-size: 42px;
         line-height: 48px;
     }
@@ -121,17 +121,17 @@
 }
 
 @media screen and (max-width: 880px){
-    .discuss .discuss-wrap h3 {
+    .discuss-left_title {
         font-size: 32px;
         line-height: 38px;
     }
-    .discuss .discuss-wrap p,
+    .discuss-left_subtitle,
     .blog .blog-cards .blog-cards_item p,
     .virtues .virtues-block p{
         font-size: 18px;
         line-height: 26px;
     }
-    .discuss .discuss-wrap a {
+    .discuss-left_link {
         padding: 16px 45px;
     }
 }
@@ -147,8 +147,8 @@
     .discuss .discuss-wrap .discuss-left{
         text-align: center;
     }
-    .discuss .discuss-wrap h3,
-    .discuss .discuss-wrap p{
+    .discuss-left_title,
+    .discuss-left_subtitle{
         text-align: left;
     }
 }
@@ -158,14 +158,14 @@
     .blog .blog-head{
         width: 100%;
     }
-    .discuss .discuss-wrap a {
+    .discuss-left_link {
         padding: 16px 20px;
         width: 100%;
     }
     .discuss .discuss-wrap{
         padding: 35px 20px;
     }
-    .discuss .discuss-wrap p, .blog .blog-cards .blog-cards_item p, .virtues .virtues-block p{
+    .discuss-left_subtitle, .blog .blog-cards .blog-cards_item p, .virtues .virtues-block p{
         font-size: 16px;
         line-height: 23px;
     }
